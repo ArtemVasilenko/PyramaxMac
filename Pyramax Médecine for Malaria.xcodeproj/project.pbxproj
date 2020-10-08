@@ -24,6 +24,7 @@
 		558306E9252EF3C2003E680E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558306EC252EF3C2003E680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558306EE252EF3C2003E680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pyramax Médecine for Malaria.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		558306DF252EF3C0003E680E /* Pyramax Médecine for Malaria */ = {
 			isa = PBXGroup;
 			children = (
+				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
 				558306E0252EF3C0003E680E /* AppDelegate.swift */,
 				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
 				558306E4252EF3C0003E680E /* ViewController.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pyramax Médecine for Malaria/Pyramax Médecine for Malaria.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = "Pyramax Médecine for Malaria/Info.plist";
@@ -295,8 +298,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Sante.Pyramax-Me-decine-for-Malaria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -305,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pyramax Médecine for Malaria/Pyramax Médecine for Malaria.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = "Pyramax Médecine for Malaria/Info.plist";
@@ -314,8 +319,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Sante.Pyramax-Me-decine-for-Malaria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
