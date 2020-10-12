@@ -466,13 +466,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Pyramax Médecine for Malaria/Pyramax Médecine for Malaria.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SP8ZAT56L5;
+				DEVELOPMENT_TEAM = S3J28J4J6D;
 				INFOPLIST_FILE = "Pyramax Médecine for Malaria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sante.Pyramax-Me-decine-for-Malaria";
+				PRODUCT_BUNDLE_IDENTIFIER = Sante.Pyramax.Medecine.for.Malaria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -487,13 +487,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Pyramax Médecine for Malaria/Pyramax Médecine for Malaria.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SP8ZAT56L5;
+				DEVELOPMENT_TEAM = S3J28J4J6D;
 				INFOPLIST_FILE = "Pyramax Médecine for Malaria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sante.Pyramax-Me-decine-for-Malaria";
+				PRODUCT_BUNDLE_IDENTIFIER = Sante.Pyramax.Medecine.for.Malaria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
