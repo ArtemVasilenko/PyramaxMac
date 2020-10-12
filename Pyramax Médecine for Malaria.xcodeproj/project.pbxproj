@@ -34,6 +34,7 @@
 		559E13CD253488880023DDF5 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E13CC253488880023DDF5 /* KeyChain.swift */; };
 		55D6B3252534A8100057219A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3242534A8100057219A /* TabBarVC.swift */; };
 		55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */; };
+		55D6B3302534AAD50057219A /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B32F2534AAD50057219A /* MainEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		559E13CC253488880023DDF5 /* KeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 		55D6B3242534A8100057219A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		55D6B32F2534AAD50057219A /* MainEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
+				558306E0252EF3C0003E680E /* AppDelegate.swift */,
+				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
+				55D6B32B2534AA780057219A /* Main */,
 				55D6B3232534A7C00057219A /* TabBar */,
 				559E13C8253488400023DDF5 /* Localization */,
 				559E13C2253487ED0023DDF5 /* ReportFlow */,
 				559E13A9253487310023DDF5 /* SlideFlow */,
-				558306E0252EF3C0003E680E /* AppDelegate.swift */,
-				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
 				559E134525347A8B0023DDF5 /* Login */,
 				559E134425347A7E0023DDF5 /* Storyboards */,
 				558306E9252EF3C2003E680E /* Assets.xcassets */,
@@ -234,6 +237,38 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		55D6B32B2534AA780057219A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B32E2534AAA90057219A /* View */,
+				55D6B32D2534AAA20057219A /* ViewController */,
+				55D6B32C2534AA9C0057219A /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		55D6B32C2534AA9C0057219A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B32F2534AAD50057219A /* MainEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D6B32D2534AAA20057219A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55D6B32E2534AAA90057219A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,6 +357,7 @@
 				559E13392534781A0023DDF5 /* StartViewController.swift in Sources */,
 				559E13C6253488280023DDF5 /* ReportEntity.swift in Sources */,
 				559E13CD253488880023DDF5 /* KeyChain.swift in Sources */,
+				55D6B3302534AAD50057219A /* MainEntity.swift in Sources */,
 				559E13B72534878C0023DDF5 /* AnswerEntity.swift in Sources */,
 				55D6B3252534A8100057219A /* TabBarVC.swift in Sources */,
 				558306E1252EF3C0003E680E /* AppDelegate.swift in Sources */,
