@@ -3,28 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		558306E1252EF3C0003E680E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558306E0252EF3C0003E680E /* AppDelegate.swift */; };
 		558306E3252EF3C0003E680E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558306E2252EF3C0003E680E /* SceneDelegate.swift */; };
-		558306E5252EF3C0003E680E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558306E4252EF3C0003E680E /* ViewController.swift */; };
 		558306E8252EF3C0003E680E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558306E6252EF3C0003E680E /* Main.storyboard */; };
 		558306EA252EF3C2003E680E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558306E9252EF3C2003E680E /* Assets.xcassets */; };
 		558306ED252EF3C2003E680E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558306EB252EF3C2003E680E /* LaunchScreen.storyboard */; };
+		559E13392534781A0023DDF5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E13382534781A0023DDF5 /* WelcomeViewController.swift */; };
+		559E133E25347A300023DDF5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 559E133D25347A300023DDF5 /* Alamofire */; };
+		559E134225347A670023DDF5 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 559E134125347A670023DDF5 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		558306DD252EF3C0003E680E /* Pyramax Médecine for Malaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pyramax Médecine for Malaria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		558306E0252EF3C0003E680E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558306E2252EF3C0003E680E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		558306E4252EF3C0003E680E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		558306E7252EF3C0003E680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		558306E9252EF3C2003E680E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558306EC252EF3C2003E680E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558306EE252EF3C2003E680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pyramax Médecine for Malaria.entitlements"; sourceTree = "<group>"; };
+		559E13382534781A0023DDF5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559E133E25347A300023DDF5 /* Alamofire in Frameworks */,
+				559E134225347A670023DDF5 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +64,29 @@
 				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
 				558306E0252EF3C0003E680E /* AppDelegate.swift */,
 				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
-				558306E4252EF3C0003E680E /* ViewController.swift */,
-				558306E6252EF3C0003E680E /* Main.storyboard */,
+				559E134525347A8B0023DDF5 /* Login */,
+				559E134425347A7E0023DDF5 /* Storyboards */,
 				558306E9252EF3C2003E680E /* Assets.xcassets */,
 				558306EB252EF3C2003E680E /* LaunchScreen.storyboard */,
 				558306EE252EF3C2003E680E /* Info.plist */,
 			);
 			path = "Pyramax Médecine for Malaria";
+			sourceTree = "<group>";
+		};
+		559E134425347A7E0023DDF5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				558306E6252EF3C0003E680E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		559E134525347A8B0023DDF5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				559E13382534781A0023DDF5 /* WelcomeViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +105,10 @@
 			dependencies = (
 			);
 			name = "Pyramax Médecine for Malaria";
+			packageProductDependencies = (
+				559E133D25347A300023DDF5 /* Alamofire */,
+				559E134125347A670023DDF5 /* SwiftSoup */,
+			);
 			productName = "Pyramax Médecine for Malaria";
 			productReference = 558306DD252EF3C0003E680E /* Pyramax Médecine for Malaria.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +136,10 @@
 				Base,
 			);
 			mainGroup = 558306D4252EF3C0003E680E;
+			packageReferences = (
+				559E133C25347A300023DDF5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				559E134025347A670023DDF5 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 558306DE252EF3C0003E680E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558306E5252EF3C0003E680E /* ViewController.swift in Sources */,
+				559E13392534781A0023DDF5 /* WelcomeViewController.swift in Sources */,
 				558306E1252EF3C0003E680E /* AppDelegate.swift in Sources */,
 				558306E3252EF3C0003E680E /* SceneDelegate.swift in Sources */,
 			);
@@ -347,6 +375,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		559E133C25347A300023DDF5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		559E134025347A670023DDF5 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		559E133D25347A300023DDF5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 559E133C25347A300023DDF5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		559E134125347A670023DDF5 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 559E134025347A670023DDF5 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 558306D5252EF3C0003E680E /* Project object */;
 }
