@@ -32,6 +32,8 @@
 		559E13C6253488280023DDF5 /* ReportEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E13C5253488280023DDF5 /* ReportEntity.swift */; };
 		559E13CA253488520023DDF5 /* Project Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E13C9253488520023DDF5 /* Project Strings.swift */; };
 		559E13CD253488880023DDF5 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E13CC253488880023DDF5 /* KeyChain.swift */; };
+		55D6B3252534A8100057219A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3242534A8100057219A /* TabBarVC.swift */; };
+		55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		559E13C5253488280023DDF5 /* ReportEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportEntity.swift; sourceTree = "<group>"; };
 		559E13C9253488520023DDF5 /* Project Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Project Strings.swift"; sourceTree = "<group>"; };
 		559E13CC253488880023DDF5 /* KeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		55D6B3242534A8100057219A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +99,11 @@
 		558306DF252EF3C0003E680E /* Pyramax Médecine for Malaria */ = {
 			isa = PBXGroup;
 			children = (
+				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
+				55D6B3232534A7C00057219A /* TabBar */,
 				559E13C8253488400023DDF5 /* Localization */,
 				559E13C2253487ED0023DDF5 /* ReportFlow */,
 				559E13A9253487310023DDF5 /* SlideFlow */,
-				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
 				558306E0252EF3C0003E680E /* AppDelegate.swift */,
 				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
 				559E134525347A8B0023DDF5 /* Login */,
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				559E13382534781A0023DDF5 /* StartViewController.swift */,
+				55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -220,6 +226,14 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		55D6B3232534A7C00057219A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3242534A8100057219A /* TabBarVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,12 +323,14 @@
 				559E13C6253488280023DDF5 /* ReportEntity.swift in Sources */,
 				559E13CD253488880023DDF5 /* KeyChain.swift in Sources */,
 				559E13B72534878C0023DDF5 /* AnswerEntity.swift in Sources */,
+				55D6B3252534A8100057219A /* TabBarVC.swift in Sources */,
 				558306E1252EF3C0003E680E /* AppDelegate.swift in Sources */,
 				559E13BD2534878C0023DDF5 /* SlideEntity.swift in Sources */,
 				558306E3252EF3C0003E680E /* SceneDelegate.swift in Sources */,
 				559E13BE2534878C0023DDF5 /* TopicEntity.swift in Sources */,
 				559E13CA253488520023DDF5 /* Project Strings.swift in Sources */,
 				559E13A3253486CC0023DDF5 /* ParserSoup.swift in Sources */,
+				55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */,
 				559E13B82534878C0023DDF5 /* SlideInTopicEntity.swift in Sources */,
 				559E13BF2534878C0023DDF5 /* TopicsEntity.swift in Sources */,
 				559E13BC2534878C0023DDF5 /* DocSlideEntity.swift in Sources */,

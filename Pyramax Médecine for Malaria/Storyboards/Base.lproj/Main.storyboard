@@ -51,6 +51,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JAN-1Q-6OO"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dod-hP-1IJ">
                                 <rect key="frame" x="972" y="415" width="228" height="34"/>
@@ -60,6 +63,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="75o-uN-nxr"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRR-30-NHp">
                                 <rect key="frame" x="720" y="487" width="95" height="48"/>
@@ -164,6 +170,22 @@
             </objects>
             <point key="canvasLocation" x="19.5" y="89"/>
         </scene>
+        <!--Forgot Password View Controller-->
+        <scene sceneID="UXs-bG-8iZ">
+            <objects>
+                <viewController storyboardIdentifier="ForgotPasswordVC" id="Ias-VP-pIk" customClass="ForgotPasswordViewController" customModule="Pyramax_Me_decine_for_Malaria" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jyU-Xp-pmN">
+                        <rect key="frame" x="0.0" y="0.0" width="1280" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WPe-ln-W4m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <size key="freeformSize" width="1280" height="800"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjR-Mh-CeL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="1012"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="p9a-IW-eDe">
             <objects>
@@ -180,12 +202,27 @@
             </objects>
             <point key="canvasLocation" x="1066" y="89"/>
         </scene>
+        <!--Tab BarVC-->
+        <scene sceneID="vOq-Uy-jXN">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarVC" id="6HO-Iz-V8C" customClass="TabBarVC" customModule="Pyramax_Me_decine_for_Malaria" customModuleProvider="target" sceneMemberID="viewController">
+                    <size key="freeformSize" width="1280" height="800"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CPe-Sm-9ZY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gv0-lg-YAY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="-862"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Shin_poong" width="244" height="32"/>
         <image name="loginTheme" width="640" height="800"/>
         <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
