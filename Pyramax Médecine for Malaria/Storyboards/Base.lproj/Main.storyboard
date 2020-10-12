@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Welcome View Controller-->
+        <!--Start View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="Pyramax_Me_decine_for_Malaria" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="Pyramax_Me_decine_for_Malaria" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1280" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -72,6 +72,9 @@
                                 <state key="normal" title="Join">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="enterButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W5d-Be-p6k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RP-Xm-r83">
                                 <rect key="frame" x="825" y="487" width="123" height="48"/>
@@ -83,6 +86,9 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.8862745098" green="0.43529411759999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pEn-KR-rRB" kind="presentation" modalPresentationStyle="fullScreen" id="66Q-2p-t2z"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginTheme" translatesAutoresizingMaskIntoConstraints="NO" id="bei-ZO-0hi">
                                 <rect key="frame" x="8" y="0.0" width="640" height="800"/>
@@ -91,6 +97,27 @@
                                     <constraint firstAttribute="width" constant="640" id="vnk-8g-Xmw"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7j-DP-DJw">
+                                <rect key="frame" x="956" y="487" width="85" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="AuE-0f-cJn"/>
+                                    <constraint firstAttribute="width" constant="85" id="rcm-pK-M63"/>
+                                </constraints>
+                                <state key="normal" title="Forgot">
+                                    <color key="titleColor" red="0.8862745098" green="0.43529411759999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPasswordButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3V-a3-t5J"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="HQS-RQ-djq">
+                                <rect key="frame" x="854" y="543" width="64" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="JqU-7k-F42"/>
+                                    <constraint firstAttribute="height" constant="71" id="iI7-Z2-Q27"/>
+                                </constraints>
+                                <color key="color" red="0.8862745098" green="0.43529411759999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -98,7 +125,10 @@
                             <constraint firstItem="HeV-Mg-cdn" firstAttribute="top" secondItem="ZVs-92-BkA" secondAttribute="bottom" constant="195" id="2v4-9C-f4g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w7V-ZP-DRv" secondAttribute="trailing" constant="80" id="6k4-Nv-zPG"/>
                             <constraint firstItem="bei-ZO-0hi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="7BV-Xl-WOD"/>
+                            <constraint firstItem="HQS-RQ-djq" firstAttribute="top" secondItem="7RP-Xm-r83" secondAttribute="bottom" constant="8" symbolic="YES" id="DGZ-iz-XXT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HQS-RQ-djq" secondAttribute="trailing" constant="362" id="EBm-3R-Die"/>
                             <constraint firstItem="bei-ZO-0hi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="F4I-DW-xq0"/>
+                            <constraint firstItem="HQS-RQ-djq" firstAttribute="leading" secondItem="bei-ZO-0hi" secondAttribute="trailing" constant="206" id="IW7-84-a50"/>
                             <constraint firstItem="7RP-Xm-r83" firstAttribute="leading" secondItem="WRR-30-NHp" secondAttribute="trailing" constant="10" id="JiK-Fu-tZd"/>
                             <constraint firstItem="WRR-30-NHp" firstAttribute="leading" secondItem="bei-ZO-0hi" secondAttribute="trailing" constant="72" id="K2Q-xN-2VR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HeV-Mg-cdn" secondAttribute="trailing" constant="80" id="K7Y-Rw-dUl"/>
@@ -109,8 +139,10 @@
                             <constraint firstItem="HeV-Mg-cdn" firstAttribute="leading" secondItem="bei-ZO-0hi" secondAttribute="trailing" constant="72" id="RyM-Yj-Idz"/>
                             <constraint firstItem="ZVs-92-BkA" firstAttribute="leading" secondItem="bei-ZO-0hi" secondAttribute="trailing" constant="72" id="Vdh-Jo-HR6"/>
                             <constraint firstItem="7RP-Xm-r83" firstAttribute="top" secondItem="k3t-eo-eyT" secondAttribute="bottom" constant="38" id="Yto-Z8-9cP"/>
+                            <constraint firstItem="y7j-DP-DJw" firstAttribute="top" secondItem="dod-hP-1IJ" secondAttribute="bottom" constant="38" id="hoQ-IJ-beB"/>
                             <constraint firstItem="bei-ZO-0hi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nw5-3e-YwF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dod-hP-1IJ" secondAttribute="trailing" constant="80" id="oYK-96-IKi"/>
+                            <constraint firstItem="y7j-DP-DJw" firstAttribute="leading" secondItem="7RP-Xm-r83" secondAttribute="trailing" constant="8" symbolic="YES" id="u8C-do-vn4"/>
                             <constraint firstItem="WRR-30-NHp" firstAttribute="top" secondItem="k3t-eo-eyT" secondAttribute="bottom" constant="38" id="uSj-Op-Rf3"/>
                             <constraint firstItem="k3t-eo-eyT" firstAttribute="top" secondItem="w7V-ZP-DRv" secondAttribute="bottom" constant="60" id="vrD-9G-8xt"/>
                             <constraint firstItem="ZVs-92-BkA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="y9A-Hd-j9Z"/>
@@ -120,13 +152,33 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1280" height="800"/>
                     <connections>
-                        <outlet property="loginButtonOutlet" destination="WRR-30-NHp" id="4cO-rc-VA7"/>
+                        <outlet property="enterButton" destination="WRR-30-NHp" id="z0t-dc-5PB"/>
+                        <outlet property="forgotPasswordButtonOutlet" destination="y7j-DP-DJw" id="RWD-gW-WNz"/>
+                        <outlet property="mailTextField" destination="k3t-eo-eyT" id="tUH-0i-0tF"/>
+                        <outlet property="passwordTextField" destination="dod-hP-1IJ" id="oRi-Jv-Cqa"/>
                         <outlet property="registerButtonOutlet" destination="7RP-Xm-r83" id="Ijp-DG-CXw"/>
+                        <outlet property="spinner" destination="HQS-RQ-djq" id="A5P-49-mq0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="19.5" y="89"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="p9a-IW-eDe">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="pEn-KR-rRB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Ul-uH-VlN">
+                        <rect key="frame" x="0.0" y="0.0" width="1280" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8GD-aX-aK7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <size key="freeformSize" width="1280" height="800"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loK-Od-tMy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="89"/>
         </scene>
     </scenes>
     <resources>
