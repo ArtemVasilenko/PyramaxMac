@@ -15,6 +15,8 @@
 		559E13392534781A0023DDF5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E13382534781A0023DDF5 /* StartViewController.swift */; };
 		559E133E25347A300023DDF5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 559E133D25347A300023DDF5 /* Alamofire */; };
 		559E134225347A670023DDF5 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 559E134125347A670023DDF5 /* SwiftSoup */; };
+		559E139D2534868A0023DDF5 /* Sante.db in Resources */ = {isa = PBXBuildFile; fileRef = 559E139C2534868A0023DDF5 /* Sante.db */; };
+		559E13A0253486960023DDF5 /* Santefr.db in Resources */ = {isa = PBXBuildFile; fileRef = 559E139F253486960023DDF5 /* Santefr.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		558306EE252EF3C2003E680E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pyramax Médecine for Malaria.entitlements"; sourceTree = "<group>"; };
 		559E13382534781A0023DDF5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		559E139C2534868A0023DDF5 /* Sante.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sante.db; path = DataBase/Sante.db; sourceTree = SOURCE_ROOT; };
+		559E139F253486960023DDF5 /* Santefr.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Santefr.db; path = DataBase/Santefr.db; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		559E134B25347FA70023DDF5 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				559E139F253486960023DDF5 /* Santefr.db */,
+				559E139C2534868A0023DDF5 /* Sante.db */,
 			);
 			path = DataBase;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 				558306ED252EF3C2003E680E /* LaunchScreen.storyboard in Resources */,
 				558306EA252EF3C2003E680E /* Assets.xcassets in Resources */,
 				558306E8252EF3C0003E680E /* Main.storyboard in Resources */,
+				559E13A0253486960023DDF5 /* Santefr.db in Resources */,
+				559E139D2534868A0023DDF5 /* Sante.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
