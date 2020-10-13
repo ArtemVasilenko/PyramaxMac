@@ -73,6 +73,14 @@
 		55D6B3AE25358A1D0057219A /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3AC25358A1D0057219A /* APIModel.swift */; };
 		55D6B3AF25358A1D0057219A /* APIReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3AD25358A1D0057219A /* APIReachability.swift */; };
 		55D6B3B225358A2D0057219A /* UIView+message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3B125358A2D0057219A /* UIView+message.swift */; };
+		55D6B3BF25358D260057219A /* SearhSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3B925358D260057219A /* SearhSB.storyboard */; };
+		55D6B3C025358D260057219A /* Faq.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3BA25358D260057219A /* Faq.storyboard */; };
+		55D6B3C125358D260057219A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3BB25358D260057219A /* LaunchScreen.storyboard */; };
+		55D6B3C225358D260057219A /* LibSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3BC25358D260057219A /* LibSB.storyboard */; };
+		55D6B3C325358D260057219A /* PresentationStartSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3BD25358D260057219A /* PresentationStartSB.storyboard */; };
+		55D6B3C425358D260057219A /* ReportSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3BE25358D260057219A /* ReportSB.storyboard */; };
+		55D6B3C825358DEA0057219A /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3C725358DEA0057219A /* ReportViewController.xib */; };
+		55D6B3CB25358DF40057219A /* ReportViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55D6B3CA25358DF40057219A /* ReportViewController.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +151,14 @@
 		55D6B3AC25358A1D0057219A /* APIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		55D6B3AD25358A1D0057219A /* APIReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIReachability.swift; sourceTree = "<group>"; };
 		55D6B3B125358A2D0057219A /* UIView+message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+message.swift"; sourceTree = "<group>"; };
+		55D6B3B925358D260057219A /* SearhSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearhSB.storyboard; sourceTree = "<group>"; };
+		55D6B3BA25358D260057219A /* Faq.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Faq.storyboard; sourceTree = "<group>"; };
+		55D6B3BB25358D260057219A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55D6B3BC25358D260057219A /* LibSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LibSB.storyboard; sourceTree = "<group>"; };
+		55D6B3BD25358D260057219A /* PresentationStartSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PresentationStartSB.storyboard; sourceTree = "<group>"; };
+		55D6B3BE25358D260057219A /* ReportSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReportSB.storyboard; sourceTree = "<group>"; };
+		55D6B3C725358DEA0057219A /* ReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportViewController.xib; sourceTree = "<group>"; };
+		55D6B3CA25358DF40057219A /* ReportViewController.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ReportViewController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +217,12 @@
 		559E134425347A7E0023DDF5 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B3BA25358D260057219A /* Faq.storyboard */,
+				55D6B3BB25358D260057219A /* LaunchScreen.storyboard */,
+				55D6B3BC25358D260057219A /* LibSB.storyboard */,
+				55D6B3BD25358D260057219A /* PresentationStartSB.storyboard */,
+				55D6B3BE25358D260057219A /* ReportSB.storyboard */,
+				55D6B3B925358D260057219A /* SearhSB.storyboard */,
 				558306E6252EF3C0003E680E /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -282,6 +304,7 @@
 		559E13C2253487ED0023DDF5 /* ReportFlow */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B3C625358DC50057219A /* View */,
 				55D6B356253583A00057219A /* ViewController */,
 				559E13C3253487FA0023DDF5 /* Model */,
 			);
@@ -519,6 +542,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		55D6B3C625358DC50057219A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3CA25358DF40057219A /* ReportViewController.strings */,
+				55D6B3C725358DEA0057219A /* ReportViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -585,9 +617,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				558306ED252EF3C2003E680E /* LaunchScreen.storyboard in Resources */,
+				55D6B3C125358D260057219A /* LaunchScreen.storyboard in Resources */,
+				55D6B3BF25358D260057219A /* SearhSB.storyboard in Resources */,
 				558306EA252EF3C2003E680E /* Assets.xcassets in Resources */,
+				55D6B3C325358D260057219A /* PresentationStartSB.storyboard in Resources */,
+				55D6B3C425358D260057219A /* ReportSB.storyboard in Resources */,
 				558306E8252EF3C0003E680E /* Main.storyboard in Resources */,
+				55D6B3C225358D260057219A /* LibSB.storyboard in Resources */,
+				55D6B3C825358DEA0057219A /* ReportViewController.xib in Resources */,
+				55D6B3CB25358DF40057219A /* ReportViewController.strings in Resources */,
 				559E13A0253486960023DDF5 /* Santefr.db in Resources */,
+				55D6B3C025358D260057219A /* Faq.storyboard in Resources */,
 				559E139D2534868A0023DDF5 /* Sante.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Report After Slide View Controller-->
+        <scene sceneID="8hJ-B0-SUi">
+            <objects>
+                <viewController storyboardIdentifier="ReportAfterSlide" id="IHE-kg-oBL" customClass="ReportAfterSlideViewController" customModule="Pyramax_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jjl-om-FvM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mSz-Ta-DY2">
+                                <rect key="frame" x="20" y="146" width="374" height="716"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRR-v1-NRS">
+                                <rect key="frame" x="20" y="98" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Lg-PI-Z8j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NRR-v1-NRS" firstAttribute="top" secondItem="BYZ-ZU-nXM" secondAttribute="top" constant="10" id="0KM-uj-mgZ"/>
+                            <constraint firstItem="mSz-Ta-DY2" firstAttribute="top" secondItem="NRR-v1-NRS" secondAttribute="bottom" constant="8" id="4JD-dW-aWd"/>
+                            <constraint firstItem="mSz-Ta-DY2" firstAttribute="bottom" secondItem="BYZ-ZU-nXM" secondAttribute="bottom" constant="0.20000000000000001" id="H5e-nc-RmY"/>
+                            <constraint firstItem="mSz-Ta-DY2" firstAttribute="leading" secondItem="BYZ-ZU-nXM" secondAttribute="leading" constant="20" id="Yh1-Am-g18"/>
+                            <constraint firstItem="NRR-v1-NRS" firstAttribute="leading" secondItem="BYZ-ZU-nXM" secondAttribute="leading" constant="20" id="aIx-6W-xpf"/>
+                            <constraint firstItem="BYZ-ZU-nXM" firstAttribute="trailing" secondItem="mSz-Ta-DY2" secondAttribute="trailing" constant="20" id="dd6-61-SdJ"/>
+                            <constraint firstItem="BYZ-ZU-nXM" firstAttribute="trailing" secondItem="NRR-v1-NRS" secondAttribute="trailing" constant="20" id="kFX-ei-ujI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BYZ-ZU-nXM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="40p-GB-ZkB">
+                        <barButtonItem key="leftBarButtonItem" title="Own use" id="kjm-EX-0Dp">
+                            <connections>
+                                <action selector="usageProprePress:" destination="IHE-kg-oBL" id="9AY-e2-FXV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="mSz-Ta-DY2" id="2U2-ES-ndh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qd7-FW-cgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918.84057971014499" y="67.633928571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7Ia-xW-wn9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zWP-cM-Yvy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="60i-lr-5vd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IHE-kg-oBL" kind="relationship" relationship="rootViewController" id="e0z-3L-rxW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CnX-bD-dak" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.6956521739130448" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+</document>

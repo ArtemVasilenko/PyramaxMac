@@ -508,12 +508,97 @@
             </objects>
             <point key="canvasLocation" x="2218" y="20"/>
         </scene>
+        <!--Report-->
+        <scene sceneID="EQe-Uj-PTo">
+            <objects>
+                <viewController storyboardIdentifier="ReportVC" wantsFullScreenLayout="YES" id="pWX-6K-APH" customClass="ReportViewController" customModule="Médecine_for_Malaria" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uNG-7Y-4bT">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TWM-Vc-RZP">
+                                <rect key="frame" x="278" y="109" width="470" height="865"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4vB-rg-7ST">
+                                <rect key="frame" x="20" y="109" width="250" height="865"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0b6-4C-zkV">
+                                <rect key="frame" x="385" y="502" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.43529411759999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="gpk-Qe-30r"/>
+                                    <constraint firstAttribute="height" constant="30" id="z1z-cd-6FK"/>
+                                </constraints>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="okButtonOutlet:" destination="pWX-6K-APH" eventType="touchUpInside" id="h7v-6E-tXC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7yg-7W-mvC"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7yg-7W-mvC" firstAttribute="bottom" secondItem="0b6-4C-zkV" secondAttribute="bottom" constant="18" id="Fiq-cw-SxA"/>
+                            <constraint firstItem="0b6-4C-zkV" firstAttribute="centerX" secondItem="uNG-7Y-4bT" secondAttribute="centerX" id="fcw-Uq-R6Y"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Report" image="Report" id="xwx-cx-rXw"/>
+                    <navigationItem key="navigationItem" id="jfu-fV-qXr">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="d4y-Od-Ygz">
+                            <rect key="frame" x="326" y="9" width="149" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            <segments>
+                                <segment title="Required"/>
+                                <segment title="Archive"/>
+                            </segments>
+                        </segmentedControl>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="leftTB" destination="4vB-rg-7ST" id="eQV-mh-ZPf"/>
+                        <outlet property="okButtonOutlet" destination="0b6-4C-zkV" id="IMs-nu-25T"/>
+                        <outlet property="rightTB" destination="TWM-Vc-RZP" id="jNK-10-9pF"/>
+                        <outlet property="segment" destination="d4y-Od-Ygz" id="Rt5-Zj-hyf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xnL-ud-ltg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3489" y="205"/>
+        </scene>
+        <!--Report-->
+        <scene sceneID="IfQ-3O-wgd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Re-9x-Fn9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Report" image="Report" id="pKV-Gf-htM">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KX4-JO-pq1">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pWX-6K-APH" kind="relationship" relationship="rootViewController" id="KZo-fX-Lbe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fyc-3T-DDe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3489" y="-636"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Cover_iPad" width="384" height="166"/>
         <image name="Exit" width="16.5" height="16"/>
         <image name="Home" width="11" height="11"/>
         <image name="Lock" width="30" height="30"/>
+        <image name="Report" width="12" height="12"/>
         <image name="Shin_poong" width="163.5" height="21"/>
         <image name="loginTheme" width="640" height="800"/>
         <image name="mainLogo" width="25" height="25"/>
@@ -526,6 +611,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
