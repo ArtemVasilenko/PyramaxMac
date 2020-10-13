@@ -1,12 +1,3 @@
-//
-//  ReportViewController.swift
-//  MedicalApp
-//
-//  Created by Nikita Traydakalo on 7/31/19.
-//  Copyright © 2019 iOS Team. All rights reserved.
-//
-
-
 import UIKit
 
 class ReportViewController: UIViewController {

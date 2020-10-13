@@ -35,8 +35,6 @@
 		55D6B3252534A8100057219A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3242534A8100057219A /* TabBarVC.swift */; };
 		55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */; };
 		55D6B3302534AAD50057219A /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B32F2534AAD50057219A /* MainEntity.swift */; };
-		55D6B3332534AC030057219A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3322534AC030057219A /* MainViewController.swift */; };
-		55D6B33B2534ACB10057219A /* PresentationStartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B33A2534ACB10057219A /* PresentationStartModel.swift */; };
 		55D6B33F253582C00057219A /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B33E253582C00057219A /* FaqViewController.swift */; };
 		55D6B347253583420057219A /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B346253583420057219A /* LibraryViewController.swift */; };
 		55D6B34A2535834A0057219A /* LibVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3492535834A0057219A /* LibVC.swift */; };
@@ -47,6 +45,34 @@
 		55D6B35A253583B90057219A /* VisitTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B357253583B90057219A /* VisitTypeViewController.swift */; };
 		55D6B35B253583B90057219A /* ReportAfterSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B358253583B90057219A /* ReportAfterSlideViewController.swift */; };
 		55D6B35C253583B90057219A /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B359253583B90057219A /* ReportViewController.swift */; };
+		55D6B363253584F20057219A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B360253584F20057219A /* MainViewController.swift */; };
+		55D6B364253584F20057219A /* ItemFromVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B361253584F20057219A /* ItemFromVideoViewController.swift */; };
+		55D6B36F253586E50057219A /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B36A253586E50057219A /* SlideView.swift */; };
+		55D6B370253586E50057219A /* SlidesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B36B253586E50057219A /* SlidesTableView.swift */; };
+		55D6B371253586E50057219A /* TopicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B36C253586E50057219A /* TopicTableView.swift */; };
+		55D6B372253586E50057219A /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B36D253586E50057219A /* TopicTableViewCell.swift */; };
+		55D6B373253586E50057219A /* SlideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B36E253586E50057219A /* SlideTableViewCell.swift */; };
+		55D6B3772535871D0057219A /* SlideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3762535871D0057219A /* SlideVC.swift */; };
+		55D6B383253588170057219A /* PresentationStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B37D253588160057219A /* PresentationStartVC.swift */; };
+		55D6B384253588170057219A /* PrepareScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B37E253588160057219A /* PrepareScreenVC.swift */; };
+		55D6B385253588170057219A /* LogoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B37F253588160057219A /* LogoTableViewController.swift */; };
+		55D6B386253588170057219A /* SelectCoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B380253588170057219A /* SelectCoverVC.swift */; };
+		55D6B387253588170057219A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B381253588170057219A /* ContentViewController.swift */; };
+		55D6B388253588170057219A /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B382253588170057219A /* SlideViewController.swift */; };
+		55D6B391253588580057219A /* LogoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B38A253588570057219A /* LogoCollectionViewCell.swift */; };
+		55D6B392253588580057219A /* LogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B38B253588570057219A /* LogoTableViewCell.swift */; };
+		55D6B393253588580057219A /* PresentationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B38C253588570057219A /* PresentationsCollectionViewCell.swift */; };
+		55D6B394253588580057219A /* LogoSlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B38D253588570057219A /* LogoSlideCollectionViewCell.swift */; };
+		55D6B395253588580057219A /* PresentationStartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B38E253588570057219A /* PresentationStartTableViewCell.swift */; };
+		55D6B396253588580057219A /* PresentationStartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B38F253588580057219A /* PresentationStartModel.swift */; };
+		55D6B397253588580057219A /* SlideContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B390253588580057219A /* SlideContentTableViewCell.swift */; };
+		55D6B39E253589490057219A /* FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B39D253589490057219A /* FM.swift */; };
+		55D6B3A2253589910057219A /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3A1253589910057219A /* VideoCollectionViewCell.swift */; };
+		55D6B3A925358A090057219A /* APIEntitieResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3A725358A090057219A /* APIEntitieResetPassword.swift */; };
+		55D6B3AA25358A090057219A /* APIEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3A825358A090057219A /* APIEntities.swift */; };
+		55D6B3AE25358A1D0057219A /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3AC25358A1D0057219A /* APIModel.swift */; };
+		55D6B3AF25358A1D0057219A /* APIReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3AD25358A1D0057219A /* APIReachability.swift */; };
+		55D6B3B225358A2D0057219A /* UIView+message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3B125358A2D0057219A /* UIView+message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,8 +105,6 @@
 		55D6B3242534A8100057219A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		55D6B32F2534AAD50057219A /* MainEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
-		55D6B3322534AC030057219A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		55D6B33A2534ACB10057219A /* PresentationStartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStartModel.swift; sourceTree = "<group>"; };
 		55D6B33E253582C00057219A /* FaqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
 		55D6B346253583420057219A /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		55D6B3492535834A0057219A /* LibVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibVC.swift; sourceTree = "<group>"; };
@@ -91,6 +115,34 @@
 		55D6B357253583B90057219A /* VisitTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitTypeViewController.swift; sourceTree = "<group>"; };
 		55D6B358253583B90057219A /* ReportAfterSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportAfterSlideViewController.swift; sourceTree = "<group>"; };
 		55D6B359253583B90057219A /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		55D6B360253584F20057219A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55D6B361253584F20057219A /* ItemFromVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemFromVideoViewController.swift; sourceTree = "<group>"; };
+		55D6B36A253586E50057219A /* SlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		55D6B36B253586E50057219A /* SlidesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesTableView.swift; sourceTree = "<group>"; };
+		55D6B36C253586E50057219A /* TopicTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableView.swift; sourceTree = "<group>"; };
+		55D6B36D253586E50057219A /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		55D6B36E253586E50057219A /* SlideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTableViewCell.swift; sourceTree = "<group>"; };
+		55D6B3762535871D0057219A /* SlideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideVC.swift; sourceTree = "<group>"; };
+		55D6B37D253588160057219A /* PresentationStartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStartVC.swift; sourceTree = "<group>"; };
+		55D6B37E253588160057219A /* PrepareScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareScreenVC.swift; sourceTree = "<group>"; };
+		55D6B37F253588160057219A /* LogoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoTableViewController.swift; sourceTree = "<group>"; };
+		55D6B380253588170057219A /* SelectCoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCoverVC.swift; sourceTree = "<group>"; };
+		55D6B381253588170057219A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		55D6B382253588170057219A /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		55D6B38A253588570057219A /* LogoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoCollectionViewCell.swift; sourceTree = "<group>"; };
+		55D6B38B253588570057219A /* LogoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoTableViewCell.swift; sourceTree = "<group>"; };
+		55D6B38C253588570057219A /* PresentationsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationsCollectionViewCell.swift; sourceTree = "<group>"; };
+		55D6B38D253588570057219A /* LogoSlideCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoSlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		55D6B38E253588570057219A /* PresentationStartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStartTableViewCell.swift; sourceTree = "<group>"; };
+		55D6B38F253588580057219A /* PresentationStartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStartModel.swift; sourceTree = "<group>"; };
+		55D6B390253588580057219A /* SlideContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideContentTableViewCell.swift; sourceTree = "<group>"; };
+		55D6B39D253589490057219A /* FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FM.swift; sourceTree = "<group>"; };
+		55D6B3A1253589910057219A /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		55D6B3A725358A090057219A /* APIEntitieResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEntitieResetPassword.swift; sourceTree = "<group>"; };
+		55D6B3A825358A090057219A /* APIEntities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEntities.swift; sourceTree = "<group>"; };
+		55D6B3AC25358A1D0057219A /* APIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		55D6B3AD25358A1D0057219A /* APIReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIReachability.swift; sourceTree = "<group>"; };
+		55D6B3B125358A2D0057219A /* UIView+message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+message.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +177,7 @@
 		558306DF252EF3C0003E680E /* Pyramax Médecine for Malaria */ = {
 			isa = PBXGroup;
 			children = (
+				558306E9252EF3C2003E680E /* Assets.xcassets */,
 				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
 				558306E0252EF3C0003E680E /* AppDelegate.swift */,
 				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
@@ -138,7 +191,6 @@
 				559E13A9253487310023DDF5 /* SlideFlow */,
 				559E134525347A8B0023DDF5 /* Login */,
 				559E134425347A7E0023DDF5 /* Storyboards */,
-				558306E9252EF3C2003E680E /* Assets.xcassets */,
 				559E134925347F710023DDF5 /* Storage */,
 				558306EB252EF3C2003E680E /* LaunchScreen.storyboard */,
 				558306EE252EF3C2003E680E /* Info.plist */,
@@ -157,8 +209,8 @@
 		559E134525347A8B0023DDF5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				559E13382534781A0023DDF5 /* StartViewController.swift */,
-				55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */,
+				55D6B3B525358AF40057219A /* ViewControllers */,
+				55D6B3A5253589E40057219A /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -166,6 +218,7 @@
 		559E134925347F710023DDF5 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B39C2535891A0057219A /* FileManager */,
 				559E13CC253488880023DDF5 /* KeyChain.swift */,
 				559E134B25347FA70023DDF5 /* DataBase */,
 				559E134A25347F9E0023DDF5 /* Model */,
@@ -194,6 +247,8 @@
 		559E13A9253487310023DDF5 /* SlideFlow */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B3752535870D0057219A /* ViewController */,
+				55D6B369253586D00057219A /* View */,
 				559E13AA253487670023DDF5 /* Model */,
 			);
 			path = SlideFlow;
@@ -286,7 +341,8 @@
 		55D6B32D2534AAA20057219A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				55D6B3322534AC030057219A /* MainViewController.swift */,
+				55D6B361253584F20057219A /* ItemFromVideoViewController.swift */,
+				55D6B360253584F20057219A /* MainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -294,6 +350,7 @@
 		55D6B32E2534AAA90057219A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B3A1253589910057219A /* VideoCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +358,7 @@
 		55D6B3362534AC5E0057219A /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B37C253587A80057219A /* PresentationStart */,
 				55D6B3392534AC760057219A /* View */,
 				55D6B3382534AC6D0057219A /* ViewController */,
 				55D6B3372534AC680057219A /* Model */,
@@ -311,7 +369,6 @@
 		55D6B3372534AC680057219A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				55D6B33A2534ACB10057219A /* PresentationStartModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,6 +383,13 @@
 		55D6B3392534AC760057219A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B38A253588570057219A /* LogoCollectionViewCell.swift */,
+				55D6B38D253588570057219A /* LogoSlideCollectionViewCell.swift */,
+				55D6B38B253588570057219A /* LogoTableViewCell.swift */,
+				55D6B38C253588570057219A /* PresentationsCollectionViewCell.swift */,
+				55D6B38F253588580057219A /* PresentationStartModel.swift */,
+				55D6B38E253588570057219A /* PresentationStartTableViewCell.swift */,
+				55D6B390253588580057219A /* SlideContentTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -383,6 +447,76 @@
 				55D6B357253583B90057219A /* VisitTypeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55D6B369253586D00057219A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B36B253586E50057219A /* SlidesTableView.swift */,
+				55D6B36E253586E50057219A /* SlideTableViewCell.swift */,
+				55D6B36A253586E50057219A /* SlideView.swift */,
+				55D6B36C253586E50057219A /* TopicTableView.swift */,
+				55D6B36D253586E50057219A /* TopicTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D6B3752535870D0057219A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3762535871D0057219A /* SlideVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55D6B37C253587A80057219A /* PresentationStart */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B381253588170057219A /* ContentViewController.swift */,
+				55D6B37F253588160057219A /* LogoTableViewController.swift */,
+				55D6B37E253588160057219A /* PrepareScreenVC.swift */,
+				55D6B37D253588160057219A /* PresentationStartVC.swift */,
+				55D6B380253588170057219A /* SelectCoverVC.swift */,
+				55D6B382253588170057219A /* SlideViewController.swift */,
+			);
+			path = PresentationStart;
+			sourceTree = "<group>";
+		};
+		55D6B39C2535891A0057219A /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B39D253589490057219A /* FM.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		55D6B3A5253589E40057219A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3AC25358A1D0057219A /* APIModel.swift */,
+				55D6B3AD25358A1D0057219A /* APIReachability.swift */,
+				55D6B3B125358A2D0057219A /* UIView+message.swift */,
+				55D6B3A6253589F40057219A /* ApiEntities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D6B3A6253589F40057219A /* ApiEntities */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3A725358A090057219A /* APIEntitieResetPassword.swift */,
+				55D6B3A825358A090057219A /* APIEntities.swift */,
+			);
+			path = ApiEntities;
+			sourceTree = "<group>";
+		};
+		55D6B3B525358AF40057219A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				559E13382534781A0023DDF5 /* StartViewController.swift */,
+				55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,38 +599,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D6B3A2253589910057219A /* VideoCollectionViewCell.swift in Sources */,
+				55D6B3AF25358A1D0057219A /* APIReachability.swift in Sources */,
+				55D6B3B225358A2D0057219A /* UIView+message.swift in Sources */,
 				559E13A6253486D50023DDF5 /* SanteData.swift in Sources */,
-				55D6B3332534AC030057219A /* MainViewController.swift in Sources */,
 				559E13B92534878C0023DDF5 /* SlidesEntity.swift in Sources */,
 				559E13BA2534878C0023DDF5 /* PresentationEntity.swift in Sources */,
 				559E13B62534878C0023DDF5 /* UserEntity.swift in Sources */,
 				559E13BB2534878C0023DDF5 /* PresentaionsEntity.swift in Sources */,
 				55D6B354253583670057219A /* SearchVC.swift in Sources */,
 				55D6B347253583420057219A /* LibraryViewController.swift in Sources */,
+				55D6B363253584F20057219A /* MainViewController.swift in Sources */,
 				55D6B34E253583580057219A /* SlideTableVCell.swift in Sources */,
-				55D6B33B2534ACB10057219A /* PresentationStartModel.swift in Sources */,
 				559E13392534781A0023DDF5 /* StartViewController.swift in Sources */,
+				55D6B3AA25358A090057219A /* APIEntities.swift in Sources */,
 				559E13C6253488280023DDF5 /* ReportEntity.swift in Sources */,
+				55D6B388253588170057219A /* SlideViewController.swift in Sources */,
 				559E13CD253488880023DDF5 /* KeyChain.swift in Sources */,
+				55D6B3A925358A090057219A /* APIEntitieResetPassword.swift in Sources */,
 				55D6B35B253583B90057219A /* ReportAfterSlideViewController.swift in Sources */,
 				55D6B3302534AAD50057219A /* MainEntity.swift in Sources */,
+				55D6B372253586E50057219A /* TopicTableViewCell.swift in Sources */,
 				559E13B72534878C0023DDF5 /* AnswerEntity.swift in Sources */,
 				55D6B3252534A8100057219A /* TabBarVC.swift in Sources */,
+				55D6B39E253589490057219A /* FM.swift in Sources */,
 				55D6B35A253583B90057219A /* VisitTypeViewController.swift in Sources */,
+				55D6B371253586E50057219A /* TopicTableView.swift in Sources */,
 				558306E1252EF3C0003E680E /* AppDelegate.swift in Sources */,
+				55D6B370253586E50057219A /* SlidesTableView.swift in Sources */,
+				55D6B386253588170057219A /* SelectCoverVC.swift in Sources */,
+				55D6B395253588580057219A /* PresentationStartTableViewCell.swift in Sources */,
+				55D6B384253588170057219A /* PrepareScreenVC.swift in Sources */,
+				55D6B396253588580057219A /* PresentationStartModel.swift in Sources */,
 				55D6B34F253583580057219A /* LibCollectionVCell.swift in Sources */,
 				559E13BD2534878C0023DDF5 /* SlideEntity.swift in Sources */,
 				558306E3252EF3C0003E680E /* SceneDelegate.swift in Sources */,
 				559E13BE2534878C0023DDF5 /* TopicEntity.swift in Sources */,
 				55D6B33F253582C00057219A /* FaqViewController.swift in Sources */,
+				55D6B391253588580057219A /* LogoCollectionViewCell.swift in Sources */,
+				55D6B383253588170057219A /* PresentationStartVC.swift in Sources */,
 				559E13CA253488520023DDF5 /* Project Strings.swift in Sources */,
+				55D6B393253588580057219A /* PresentationsCollectionViewCell.swift in Sources */,
 				559E13A3253486CC0023DDF5 /* ParserSoup.swift in Sources */,
 				55D6B35C253583B90057219A /* ReportViewController.swift in Sources */,
 				55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */,
+				55D6B394253588580057219A /* LogoSlideCollectionViewCell.swift in Sources */,
 				559E13B82534878C0023DDF5 /* SlideInTopicEntity.swift in Sources */,
+				55D6B397253588580057219A /* SlideContentTableViewCell.swift in Sources */,
+				55D6B36F253586E50057219A /* SlideView.swift in Sources */,
+				55D6B392253588580057219A /* LogoTableViewCell.swift in Sources */,
+				55D6B385253588170057219A /* LogoTableViewController.swift in Sources */,
+				55D6B364253584F20057219A /* ItemFromVideoViewController.swift in Sources */,
+				55D6B3772535871D0057219A /* SlideVC.swift in Sources */,
 				559E13BF2534878C0023DDF5 /* TopicsEntity.swift in Sources */,
+				55D6B387253588170057219A /* ContentViewController.swift in Sources */,
 				55D6B353253583670057219A /* SlideCVCell.swift in Sources */,
 				55D6B34A2535834A0057219A /* LibVC.swift in Sources */,
+				55D6B373253586E50057219A /* SlideTableViewCell.swift in Sources */,
+				55D6B3AE25358A1D0057219A /* APIModel.swift in Sources */,
 				559E13BC2534878C0023DDF5 /* DocSlideEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

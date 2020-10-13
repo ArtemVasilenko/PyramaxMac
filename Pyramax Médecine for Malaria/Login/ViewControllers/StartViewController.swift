@@ -1,13 +1,13 @@
 import UIKit
 import Alamofire
 
-class StartViewController: UIViewController, UITextFieldDelegate {
-    
-    class Connectivity {
-        class func isConnectedToInternet() -> Bool {
-            return NetworkReachabilityManager()!.isReachable
-        }
+class Connectivity {
+    class func isConnectedToInternet() -> Bool {
+        return NetworkReachabilityManager()!.isReachable
     }
+}
+
+class StartViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var enterButton: UIButton!
     @IBOutlet weak var registerButtonOutlet: UIButton!
