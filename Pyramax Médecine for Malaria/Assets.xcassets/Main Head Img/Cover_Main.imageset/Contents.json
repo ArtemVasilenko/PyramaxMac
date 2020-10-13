@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Cover_iPad.png",
+      "filename" : "Cover_Main.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Cover_iPad-1.png",
+      "filename" : "Cover_Main-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Cover_iPad-2.png",
+      "filename" : "Cover_Main-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
