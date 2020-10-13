@@ -35,6 +35,18 @@
 		55D6B3252534A8100057219A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3242534A8100057219A /* TabBarVC.swift */; };
 		55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */; };
 		55D6B3302534AAD50057219A /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B32F2534AAD50057219A /* MainEntity.swift */; };
+		55D6B3332534AC030057219A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3322534AC030057219A /* MainViewController.swift */; };
+		55D6B33B2534ACB10057219A /* PresentationStartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B33A2534ACB10057219A /* PresentationStartModel.swift */; };
+		55D6B33F253582C00057219A /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B33E253582C00057219A /* FaqViewController.swift */; };
+		55D6B347253583420057219A /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B346253583420057219A /* LibraryViewController.swift */; };
+		55D6B34A2535834A0057219A /* LibVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B3492535834A0057219A /* LibVC.swift */; };
+		55D6B34E253583580057219A /* SlideTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B34C253583580057219A /* SlideTableVCell.swift */; };
+		55D6B34F253583580057219A /* LibCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B34D253583580057219A /* LibCollectionVCell.swift */; };
+		55D6B353253583670057219A /* SlideCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B351253583670057219A /* SlideCVCell.swift */; };
+		55D6B354253583670057219A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B352253583670057219A /* SearchVC.swift */; };
+		55D6B35A253583B90057219A /* VisitTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B357253583B90057219A /* VisitTypeViewController.swift */; };
+		55D6B35B253583B90057219A /* ReportAfterSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B358253583B90057219A /* ReportAfterSlideViewController.swift */; };
+		55D6B35C253583B90057219A /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6B359253583B90057219A /* ReportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +79,18 @@
 		55D6B3242534A8100057219A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		55D6B3272534A8A60057219A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		55D6B32F2534AAD50057219A /* MainEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
+		55D6B3322534AC030057219A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55D6B33A2534ACB10057219A /* PresentationStartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStartModel.swift; sourceTree = "<group>"; };
+		55D6B33E253582C00057219A /* FaqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
+		55D6B346253583420057219A /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		55D6B3492535834A0057219A /* LibVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibVC.swift; sourceTree = "<group>"; };
+		55D6B34C253583580057219A /* SlideTableVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTableVCell.swift; sourceTree = "<group>"; };
+		55D6B34D253583580057219A /* LibCollectionVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibCollectionVCell.swift; sourceTree = "<group>"; };
+		55D6B351253583670057219A /* SlideCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideCVCell.swift; sourceTree = "<group>"; };
+		55D6B352253583670057219A /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		55D6B357253583B90057219A /* VisitTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitTypeViewController.swift; sourceTree = "<group>"; };
+		55D6B358253583B90057219A /* ReportAfterSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportAfterSlideViewController.swift; sourceTree = "<group>"; };
+		55D6B359253583B90057219A /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,9 @@
 				558306F5252EF3C7003E680E /* Pyramax Médecine for Malaria.entitlements */,
 				558306E0252EF3C0003E680E /* AppDelegate.swift */,
 				558306E2252EF3C0003E680E /* SceneDelegate.swift */,
+				55D6B341253582FD0057219A /* Library */,
+				55D6B33D2535829E0057219A /* Faq */,
+				55D6B3362534AC5E0057219A /* Presentation */,
 				55D6B32B2534AA780057219A /* Main */,
 				55D6B3232534A7C00057219A /* TabBar */,
 				559E13C8253488400023DDF5 /* Localization */,
@@ -200,6 +227,7 @@
 		559E13C2253487ED0023DDF5 /* ReportFlow */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B356253583A00057219A /* ViewController */,
 				559E13C3253487FA0023DDF5 /* Model */,
 			);
 			path = ReportFlow;
@@ -258,6 +286,7 @@
 		55D6B32D2534AAA20057219A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				55D6B3322534AC030057219A /* MainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -267,6 +296,93 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		55D6B3362534AC5E0057219A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3392534AC760057219A /* View */,
+				55D6B3382534AC6D0057219A /* ViewController */,
+				55D6B3372534AC680057219A /* Model */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		55D6B3372534AC680057219A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B33A2534ACB10057219A /* PresentationStartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D6B3382534AC6D0057219A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55D6B3392534AC760057219A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D6B33D2535829E0057219A /* Faq */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B33E253582C00057219A /* FaqViewController.swift */,
+			);
+			path = Faq;
+			sourceTree = "<group>";
+		};
+		55D6B341253582FD0057219A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B345253583280057219A /* View */,
+				55D6B343253583120057219A /* ViewController */,
+				55D6B342253583090057219A /* Search */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		55D6B342253583090057219A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B352253583670057219A /* SearchVC.swift */,
+				55D6B351253583670057219A /* SlideCVCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		55D6B343253583120057219A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B3492535834A0057219A /* LibVC.swift */,
+				55D6B346253583420057219A /* LibraryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55D6B345253583280057219A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B34D253583580057219A /* LibCollectionVCell.swift */,
+				55D6B34C253583580057219A /* SlideTableVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D6B356253583A00057219A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55D6B358253583B90057219A /* ReportAfterSlideViewController.swift */,
+				55D6B359253583B90057219A /* ReportViewController.swift */,
+				55D6B357253583B90057219A /* VisitTypeViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,25 +466,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				559E13A6253486D50023DDF5 /* SanteData.swift in Sources */,
+				55D6B3332534AC030057219A /* MainViewController.swift in Sources */,
 				559E13B92534878C0023DDF5 /* SlidesEntity.swift in Sources */,
 				559E13BA2534878C0023DDF5 /* PresentationEntity.swift in Sources */,
 				559E13B62534878C0023DDF5 /* UserEntity.swift in Sources */,
 				559E13BB2534878C0023DDF5 /* PresentaionsEntity.swift in Sources */,
+				55D6B354253583670057219A /* SearchVC.swift in Sources */,
+				55D6B347253583420057219A /* LibraryViewController.swift in Sources */,
+				55D6B34E253583580057219A /* SlideTableVCell.swift in Sources */,
+				55D6B33B2534ACB10057219A /* PresentationStartModel.swift in Sources */,
 				559E13392534781A0023DDF5 /* StartViewController.swift in Sources */,
 				559E13C6253488280023DDF5 /* ReportEntity.swift in Sources */,
 				559E13CD253488880023DDF5 /* KeyChain.swift in Sources */,
+				55D6B35B253583B90057219A /* ReportAfterSlideViewController.swift in Sources */,
 				55D6B3302534AAD50057219A /* MainEntity.swift in Sources */,
 				559E13B72534878C0023DDF5 /* AnswerEntity.swift in Sources */,
 				55D6B3252534A8100057219A /* TabBarVC.swift in Sources */,
+				55D6B35A253583B90057219A /* VisitTypeViewController.swift in Sources */,
 				558306E1252EF3C0003E680E /* AppDelegate.swift in Sources */,
+				55D6B34F253583580057219A /* LibCollectionVCell.swift in Sources */,
 				559E13BD2534878C0023DDF5 /* SlideEntity.swift in Sources */,
 				558306E3252EF3C0003E680E /* SceneDelegate.swift in Sources */,
 				559E13BE2534878C0023DDF5 /* TopicEntity.swift in Sources */,
+				55D6B33F253582C00057219A /* FaqViewController.swift in Sources */,
 				559E13CA253488520023DDF5 /* Project Strings.swift in Sources */,
 				559E13A3253486CC0023DDF5 /* ParserSoup.swift in Sources */,
+				55D6B35C253583B90057219A /* ReportViewController.swift in Sources */,
 				55D6B3282534A8A60057219A /* ForgotPasswordViewController.swift in Sources */,
 				559E13B82534878C0023DDF5 /* SlideInTopicEntity.swift in Sources */,
 				559E13BF2534878C0023DDF5 /* TopicsEntity.swift in Sources */,
+				55D6B353253583670057219A /* SlideCVCell.swift in Sources */,
+				55D6B34A2535834A0057219A /* LibVC.swift in Sources */,
 				559E13BC2534878C0023DDF5 /* DocSlideEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
