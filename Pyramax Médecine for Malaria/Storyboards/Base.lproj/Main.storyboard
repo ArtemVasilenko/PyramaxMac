@@ -231,7 +231,7 @@
                                             <constraint firstAttribute="height" constant="48" id="nQw-0T-x0X"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="40"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For the health of people!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smc-Fh-YPe">
@@ -289,7 +289,7 @@
                                                     <rect key="frame" x="0.0" y="225" width="213" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="hGl-kl-Ggf">
@@ -326,7 +326,7 @@
                                     <constraint firstAttribute="width" constant="960" id="t4r-9W-OlI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Presentations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkg-Gi-d42">
@@ -336,21 +336,27 @@
                                     <constraint firstAttribute="height" constant="44" id="vJe-vJ-uNb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLj-y3-iQu">
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLj-y3-iQu">
                                 <rect key="frame" x="20" y="20" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6Eu-dX-fxP"/>
+                                    <constraint firstAttribute="width" constant="50" id="Ixx-PH-z16"/>
+                                </constraints>
                                 <state key="normal" image="Exit"/>
                                 <connections>
                                     <action selector="exitButton:" destination="k4b-CG-zZX" eventType="touchUpInside" id="82T-uj-n50"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xGz-h9-Mdx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xGz-h9-Mdx">
                                 <rect key="frame" x="10" y="91" width="71" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="NBv-OR-f3C"/>
+                                    <constraint firstAttribute="height" constant="75" id="UXp-uA-Wng"/>
+                                </constraints>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MDU-lv-mAr">
                                 <rect key="frame" x="160" y="741" width="960" height="299"/>
@@ -381,7 +387,7 @@
                                                     <rect key="frame" x="4" y="207" width="292" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-bs-DFG">
@@ -415,11 +421,15 @@
                             <constraint firstItem="wkg-Gi-d42" firstAttribute="centerX" secondItem="Kj0-da-R2B" secondAttribute="centerX" id="4CV-ju-aNf"/>
                             <constraint firstItem="KvT-jW-YAj" firstAttribute="top" secondItem="sGR-UE-40v" secondAttribute="bottom" constant="8" symbolic="YES" id="6o1-1m-UDJ"/>
                             <constraint firstItem="sGR-UE-40v" firstAttribute="top" secondItem="wkg-Gi-d42" secondAttribute="bottom" constant="8" symbolic="YES" id="9ah-QR-hJs"/>
+                            <constraint firstItem="bLj-y3-iQu" firstAttribute="top" secondItem="QER-6g-q4Z" secondAttribute="top" constant="20" id="G5V-0u-fVE"/>
                             <constraint firstItem="MDU-lv-mAr" firstAttribute="top" secondItem="KvT-jW-YAj" secondAttribute="bottom" constant="8" symbolic="YES" id="HSc-ZX-i2j"/>
+                            <constraint firstItem="xGz-h9-Mdx" firstAttribute="leading" secondItem="QER-6g-q4Z" secondAttribute="leading" constant="10" id="LtV-CF-fzZ"/>
                             <constraint firstItem="KvT-jW-YAj" firstAttribute="centerX" secondItem="Kj0-da-R2B" secondAttribute="centerX" id="Ltk-i9-ilO"/>
+                            <constraint firstItem="xGz-h9-Mdx" firstAttribute="top" secondItem="bLj-y3-iQu" secondAttribute="bottom" constant="21" id="TP6-bA-BX2"/>
                             <constraint firstItem="MDU-lv-mAr" firstAttribute="centerX" secondItem="Kj0-da-R2B" secondAttribute="centerX" id="YKf-KR-sHt"/>
                             <constraint firstItem="lve-PR-qFB" firstAttribute="centerX" secondItem="Kj0-da-R2B" secondAttribute="centerX" id="c2z-T4-zZI"/>
                             <constraint firstItem="wkg-Gi-d42" firstAttribute="top" secondItem="lve-PR-qFB" secondAttribute="bottom" constant="8" symbolic="YES" id="oCT-g9-9Fi"/>
+                            <constraint firstItem="bLj-y3-iQu" firstAttribute="leading" secondItem="QER-6g-q4Z" secondAttribute="leading" constant="20" id="rie-Lx-38o"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="Home" id="44U-Qf-ENy"/>
@@ -528,8 +538,8 @@
         <image name="Home" width="11" height="11"/>
         <image name="Lock" width="30" height="30"/>
         <image name="Report" width="12" height="12"/>
-        <image name="Shin_poong" width="244" height="32"/>
-        <image name="loginTheme" width="384" height="298"/>
+        <image name="Shin_poong" width="163.5" height="21"/>
+        <image name="loginTheme" width="640" height="800"/>
         <image name="mainLogo" width="25" height="25"/>
         <image name="startLogo 1" width="244" height="32"/>
         <systemColor name="scrollViewTexturedBackgroundColor">
@@ -539,7 +549,7 @@
             <color red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
