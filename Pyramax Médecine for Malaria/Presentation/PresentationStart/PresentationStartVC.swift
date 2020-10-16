@@ -25,6 +25,13 @@ class PresentationStartVC: UIViewController {
         self.continueButtonOutlet.layer.masksToBounds = true
         self.continueButtonOutlet.layer.cornerRadius = 8.0
         self.continueButtonOutlet.backgroundColor = #colorLiteral(red: 0.8862745098, green: 0.4352941176, blue: 0.2509803922, alpha: 1)
+        
+        
+//        let scrollView = UIScrollView()
+//        scrollView.isScrollEnabled = true
+////        scrollView.hasVerticalScroller = true
+//        scrollView.addSubview(self.slidesTableView)
+        
     }
     
     fileprivate func openedViewController() {
@@ -91,6 +98,7 @@ extension PresentationStartVC: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
